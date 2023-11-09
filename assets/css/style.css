@@ -407,14 +407,15 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  background: url("../img/main.fundo.png") no-repeat;
+  background-size:cover;
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(2, 5, 161, 0.91);
+  background: rgba(18, 23, 75, 0.486);
   position: absolute;
   bottom: 0;
   top: 0;
