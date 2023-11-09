@@ -124,11 +124,11 @@ h6 {
 }
 
 #header.header-transparent {
-  background: transparent;
+  background: white;
 }
 
 #header.header-scrolled {
-  background: rgba(1, 4, 136, 0.9);
+  background: white;
   height: 60px;
 }
 
@@ -168,6 +168,10 @@ h6 {
 .navbar li {
   position: relative;
 }
+.nav-link.scrollto {
+
+color: black;
+}
 
 .navbar a,
 .navbar a:focus {
@@ -197,7 +201,7 @@ h6 {
   height: 2px;
   bottom: 3px;
   left: 30px;
-  background-color: #1acc8d;
+  background-color: #FE831B;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -214,7 +218,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #fff;
+  color: #1d51b3;
 }
 
 .nav .dropdown .span { 
