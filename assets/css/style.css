@@ -1611,6 +1611,8 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  align-items: center;
+  background-color: #01036f;
 }
 
 #footer .footer-top .footer-links ul {
