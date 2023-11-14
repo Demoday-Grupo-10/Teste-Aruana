@@ -1638,7 +1638,7 @@ display: flex;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
-  padding-top: 0;
+  padding-top: 5px;
 }
 
 #footer .footer-top .footer-links ul a {
