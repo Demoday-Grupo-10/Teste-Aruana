@@ -160,7 +160,38 @@ h6 {
 .navbar {
   padding: 0;
 }
+.conterner {
+  
+  text-align: center;
+  letter-spacing: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1acc8d;
+  
 
+}
+.meu-botao {
+  display: inline-block;
+  padding: 10px 30px; /* Ajuste conforme necessário */
+  font-size: 100px; /* Ajuste conforme necessário */
+  border-radius: 40px; /* Adiciona bordas arredondadas, ajuste conforme necessário */
+  background-color: #FE831B; /* Cor de fundo do botão, ajuste conforme necessário */
+  color: #080808; /* Cor do texto no botão, ajuste conforme necessário */
+  border: none;  /* Remove a borda padrão do botão */
+  cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding: 10px 30px;
+  transition: 0.5s;
+
+}
 .navbar ul {
   margin: 0;
   padding: 0;
