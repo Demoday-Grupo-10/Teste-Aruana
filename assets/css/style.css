@@ -1730,3 +1730,9 @@ display: flex;
 formulario{
   margin-left: 20px;
 }
+.incones{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 150px;
+}
