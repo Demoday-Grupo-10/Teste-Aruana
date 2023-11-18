@@ -737,10 +737,10 @@ section {
 # About
 --------------------------------------------------------------*/
 .incones{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 50px;
   
@@ -779,46 +779,68 @@ section {
   height: 64px;
   border: 2px solid #f89100;
   border-radius: 50px;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .about .icon-box .icon i {
-  color: #ff6f00;
+  color: #000000;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #ff7700;
-  border-color: #ff8c00;
+  background: #f89100;
+  border-color: #f89100;
 }
 
 .about .icon-box:hover .icon i {
   color: #fff;
 }
-/* 
-.about .icon-box .title {
-  margin-left: 85px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  font-size: 18px;
- */
- 
-}
-/* 
-.about .icon-box .title a {
-  color: #fa8e00;
-  transition: 0.3s;
-}
- */
+
 .about .icon-box .title a:hover {
   color: #cc8b1a;
 }
-/* 
-.about .icon-box .description {
-  margin-left: 85px;
-  line-height: 24px;
-  font-size: 14px;
-} */
+
+.title{
+  color: #2652A4;
+}
+
+/* PARTE DO MAPA */
+.imagens{
+  width: 100%;
+  margin-top: 9vw;
+
+}
+.imagens .img_1{
+  position: absolute;
+  z-index: -1;
+  background-color: #000000b5;
+  border-radius: 20px;
+}
+.imagens .img_2{
+  position:relative;
+  z-index: -1;
+  right: 12vw;
+}
+.img_2{
+  bottom: 9vw;
+}
+.ex_mapa{
+  position:absolute;
+ 
+  margin-left: 30vw;
+  margin-top: -23vw;
+
+}
+.ex_mapa .title{
+  font-weight: bold;
+}
+.ex_mapa .ar{
+  color: #21A2D9;
+}
+.ex_mapa .a{
+  color: #ed3c0d;
+}
+
 
 .about .video-box {
   background: url("../img/about.png") center center no-repeat;
