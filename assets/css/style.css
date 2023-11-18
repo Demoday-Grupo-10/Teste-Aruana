@@ -1558,11 +1558,11 @@ section {
   margin-bottom: 15px;
   background: #f7f7f7;
   color: #000000;
-  border-top: 5px solid #cc731a;
+  border-top: 5px solid #FE831B;
   text-align: center;
   padding: 30px 20px;
   border-radius: 20px;
-
+  width: 100%;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1612,7 +1612,7 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
   align-items: center;
-  background-color: #01036f;
+  background-color: #2652A4;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1626,7 +1626,7 @@ display: flex;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #61ebba;
+  color: #FE831B;
   font-size: 18px;
   line-height: 1;
 }
@@ -1649,7 +1649,7 @@ display: flex;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #4be8b0;
+  color: #21A2D9;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1680,10 +1680,11 @@ display: flex;
   transition: 0.3s;
   border-radius: 50px;
 }
+
 .container .php-email-form{
   display: flex;
   flex-direction: column;
-  justify-content: left;
+  justify-content: flex-end;
   margin-left: 35px;
   margin-top: 50px;
 }
@@ -1699,23 +1700,23 @@ display: flex;
 }
 
 #footer .botão-enviar{
-    border-radius: 30px;
-    color: #FE831B;
-    border: 2px solid #F7F7F7;
-    width: 170px;
-    height: 50px;
-    display: block;
-    margin: 0 auto; 
-    text-align: center;
-  }
+  border-radius: 30px;
+  color: #FE831B;
+  border: 2px solid #F7F7F7;
+  width: 170px;
+  height: 50px;
+  display: block;
+  margin: 0 auto; 
+  text-align: center;
+}
 
-  #fotter .instagram .twitter .facebook .linkedin {
-    position: fixed;
-  }
+#fotter .instagram .twitter .facebook .linkedin {
+  position: fixed;
+}
 
-  #footer .logo-aruanã-footer {
-
-  }
+#footer .logo-aruanã-footer {
+ 
+}
 
 #footer .credits {
   padding-top: 35px;
@@ -1729,12 +1730,22 @@ display: flex;
     margin: -20px 0 30px 0;
   }
 }
-formulario{
+
+.formulario{
   margin-left: 20px;
 }
+
 .incones{
   display: flex;
   justify-content:center;
   align-items: center;
   gap: 150px;
+}
+
+.caixainfos{
+  width: 104%;
+}
+
+.caixamensagem{
+  width: 290%;
 }
