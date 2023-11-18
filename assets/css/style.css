@@ -736,19 +736,38 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.incones{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+    gap: 50px;
+  
+}
 .about {
   padding: 40px 0 0 0;
 }
+.icon-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  
+}
+
 
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
-  color: #010483;
+  color: rgb(255, 119, 0);
   margin-bottom: 15px;
 }
 
 .about .icon-box {
   margin-top: 40px;
+  display: flex;
 }
 
 .about .icon-box .icon {
@@ -758,46 +777,48 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #7ceec6;
+  border: 2px solid #f89100;
   border-radius: 50px;
   transition: 0.5s;
 }
 
 .about .icon-box .icon i {
-  color: #1acc8d;
+  color: #ff6f00;
   font-size: 32px;
 }
 
 .about .icon-box:hover .icon {
-  background: #1acc8d;
-  border-color: #1acc8d;
+  background: #ff7700;
+  border-color: #ff8c00;
 }
 
 .about .icon-box:hover .icon i {
   color: #fff;
 }
-
+/* 
 .about .icon-box .title {
   margin-left: 85px;
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 18px;
+ */
+ 
 }
-
+/* 
 .about .icon-box .title a {
-  color: #343a40;
+  color: #fa8e00;
   transition: 0.3s;
 }
-
+ */
 .about .icon-box .title a:hover {
-  color: #1acc8d;
+  color: #cc8b1a;
 }
-
+/* 
 .about .icon-box .description {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
-}
+} */
 
 .about .video-box {
   background: url("../img/about.png") center center no-repeat;
