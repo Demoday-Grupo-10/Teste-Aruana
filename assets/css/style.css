@@ -187,10 +187,8 @@ h6 {
   border: none;  /* Remove a borda padrão do botão */
   cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
   font-size: 16px;
-  letter-spacing: 2px;
   padding: 10px 30px;
   transition: 0.5s;
-
 }
 .navbar ul {
   margin: 0;
@@ -1541,8 +1539,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Footer
---------------------------------------------------------------*/
+/* Footer */
 #footer {
   background: #2652A4;
   padding: 0 0 30px 0;
@@ -1606,7 +1603,6 @@ section {
   color: #fff;
   position: relative;
   padding-bottom: 12px;
-  
 }
 
 #footer .footer-top .footer-links {
@@ -1620,8 +1616,9 @@ section {
   padding: 0;
   margin: 0;
 }
-.php-email-form .footer-info{
-display: flex;
+
+.php-email-form .footer-info {
+  display: flex;
 }
 
 #footer .footer-top .footer-links ul i {
@@ -1663,7 +1660,7 @@ display: flex;
 #footer .footer-top .footer-newsletter form input[type=email] {
   border: 0;
   padding: 4px;
-  width: calc(100% - 110px);
+  width: 100%;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit] {
@@ -1681,7 +1678,7 @@ display: flex;
   border-radius: 50px;
 }
 
-.container .php-email-form{
+.container .php-email-form {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -1699,14 +1696,14 @@ display: flex;
   padding-top: 30px;
 }
 
-#footer .botão-enviar{
+#footer .botão-enviar {
   border-radius: 30px;
   color: #FE831B;
   border: 2px solid #F7F7F7;
   width: 170px;
   height: 50px;
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -1714,9 +1711,7 @@ display: flex;
   position: fixed;
 }
 
-#footer .logo-aruanã-footer {
- 
-}
+#footer .logo-aruanã-footer {}
 
 #footer .credits {
   padding-top: 35px;
@@ -1725,27 +1720,57 @@ display: flex;
   color: #fff;
 }
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
+
+  .caixainfos,
+  .caixamensagem {
+    width: 100%;
+  }
+
+  .formulario {
+    margin-left: 0;
+  }
 }
 
-.formulario{
-  margin-left: 20px;
+@media (min-width: 768px) and (max-width: 991px) {
+  #footer .footer-top .footer-info {
+    margin: -20px 0 30px 0;
+  }
+
+  .caixainfos {
+    width: 80%;
+  }
+
+  .formulario {
+    margin-left: 0;
+  }
 }
 
-.incones{
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  gap: 150px;
+@media (min-width: 992px) and (max-width: 1199px) {
+  #footer .footer-top .footer-info {
+    margin: -20px 0 30px 0;
+  }
+
+  .caixainfos {
+    width: 70%;
+  }
+
+  .formulario {
+    margin-left: 0;
+  }
 }
 
-.caixainfos{
-  width: 104%;
+.caixamensagem {
+  width: 120%;
+  min-height: 100px; 
+  margin-right: 0; 
 }
 
-.caixamensagem{
-  width: 290%;
+@media (min-width: 768px) {
+  .caixamensagem {
+    width: 120%; 
+  }
 }
