@@ -160,8 +160,9 @@ h6 {
 .navbar {
   padding: 0;
 }
+
 .conterner {
-  
+
   text-align: center;
   letter-spacing: 20px;
   font-family: "Montserrat", sans-serif;
@@ -174,22 +175,31 @@ h6 {
   transition: 0.5s;
   color: #fff;
   background: #1acc8d;
-  
+
 
 }
+
 .meu-botao {
   display: inline-block;
-  padding: 10px 30px; /* Ajuste conforme necessário */
-  font-size: 100px; /* Ajuste conforme necessário */
-  border-radius: 40px; /* Adiciona bordas arredondadas, ajuste conforme necessário */
-  background-color: #FE831B; /* Cor de fundo do botão, ajuste conforme necessário */
-  color: #080808; /* Cor do texto no botão, ajuste conforme necessário */
-  border: none;  /* Remove a borda padrão do botão */
-  cursor: pointer; /* Muda o cursor para indicar que o botão é clicável */
+  padding: 10px 30px;
+  /* Ajuste conforme necessário */
+  font-size: 100px;
+  /* Ajuste conforme necessário */
+  border-radius: 40px;
+  /* Adiciona bordas arredondadas, ajuste conforme necessário */
+  background-color: #FE831B;
+  /* Cor de fundo do botão, ajuste conforme necessário */
+  color: #080808;
+  /* Cor do texto no botão, ajuste conforme necessário */
+  border: none;
+  /* Remove a borda padrão do botão */
+  cursor: pointer;
+  /* Muda o cursor para indicar que o botão é clicável */
   font-size: 16px;
   padding: 10px 30px;
   transition: 0.5s;
 }
+
 .navbar ul {
   margin: 0;
   padding: 0;
@@ -201,9 +211,10 @@ h6 {
 .navbar li {
   position: relative;
 }
+
 .nav-link.scrollto {
 
-color: black;
+  color: black;
 }
 
 .navbar a,
@@ -254,7 +265,7 @@ color: black;
   color: #1d51b3;
 }
 
-.nav .dropdown .span { 
+.nav .dropdown .span {
 
   background-color: orange;
   border-radius: 10px;
@@ -455,7 +466,7 @@ color: black;
 #hero {
   width: 100%;
   background: url("../img/main.fundo.png") no-repeat;
-  background-size:cover;
+  background-size: cover;
   position: relative;
   padding: 120px 0 0 0;
 }
@@ -570,7 +581,8 @@ color: black;
   z-index: 5;
   position: relative;
 }
-.hero-waves-footer{
+
+.hero-waves-footer {
   display: block;
   margin-top: 60px;
   width: 100%;
@@ -736,44 +748,40 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# About COMEÇO INCONE 
 --------------------------------------------------------------*/
-.incones{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 50px;
-  
+.incones {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+
 }
+
 .about {
   padding: 40px 0 0 0;
 }
-.icon-box{
+
+.icon-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   align-items: center;
-  
+
 }
-
-
 .about .icon-boxes h3 {
   font-size: 28px;
   font-weight: 700;
   color: rgb(255, 119, 0);
   margin-bottom: 15px;
 }
-
-
-
 .about .icon-box {
   margin-top: 40px;
   display: flex;
 }
-
 .about .icon-box .icon {
   float: left;
   display: flex;
@@ -785,132 +793,151 @@ section {
   border-radius: 50px;
   transition: 0.3s;
 }
-.incone:hover{
+.incone:hover {
   color: white;
 
 }
-
 .about .icon-box .icon i {
   color: #000000;
   font-size: 32px;
 }
-
 .about .icon-box:hover .icon {
   background: #f8910071;
   border-color: #f89100;
 }
-
 .about .icon-box:hover .icon i {
   color: #fff;
 }
-
 .about .icon-box .title a:hover {
   color: #cc8b1a;
 }
-
-.title{
+.title {
   color: #2652A4;
+  font-weight: bold;
 }
+/* FIM INCONE  */
 
 /* PARTE DO MAPA */
-.imagens{
+.mapa{
+  width: 100vw;
+  margin-bottom: 0vw;
+  height: 50vw;
+}
+.imagens {
   width: 100%;
   margin-top: 9vw;
 
 }
-.imagens .img_1{
+.imagens .img_1 {
   position: absolute;
   z-index: -1;
   background-color: #000000b5;
   border-radius: 20px;
 }
-.imagens .img_2{
-  position:relative;
+.imagens .img_2 {
+  position: relative;
   z-index: -1;
   right: 12vw;
   color: #2652A4;
   font-weight: bold;
   bottom: 9vw;
 }
- .imagens .img_3{
+
+.ex_mapa {
+  position: absolute;
+  margin-left: 31vw;
+  margin-top: -24vw;
+}
+
+.ex_mapa .ar {
+  color: #21A2D9;
+}
+
+.ex_mapa .a {
+  color: #DA1717;
+
+
+}
+/* FIM MAPA  */
+
+
+/* INICIO GLAUCUS*/
+.glaucus{
+  width: 100vw;
+  height: 60vw;
+}
+.imagens .img_3 {
   position: absolute;
   z-index: -1;
   background-color: #000000b5;
   border-radius: 20px;
-  
- }
-.imagens .img_4{
-  position:relative;
-  right: -37vw;
-  bottom: 15vw;
-  
+
 }
-.imagens .img_5{
+.imagens .img_4 {
+  position: relative;
+  left: 30vw;
+  bottom: 18vw;
+  padding: 5vw;
+}
+
+.ex_glaucus {
+  margin-left: 5vw;
+  margin-top: -38vw;
+}
+
+.ex_glaucus .title2 {
+  color: #2652A4;
+  font-weight: bold;
+}
+
+.ex_glaucus .chatbot {
+  color: #FE831B;
+}
+
+.ex_glaucus .b {
+  color: #DA1717
+}
+/* FIM GLAUCUS */
+
+
+/* INICIO CAMERA */
+.camera{
+  height: 60vw;
+}
+.imagens .img_5 {
   position: absolute;
-  z-index: -1;
   background-color: #000000b5;
   border-radius: 20px;
 }
-.imagens .img_6{
-  position:relative;
-  z-index: -1;
+
+.imagens .img_6 {
+  position: relative;
   right: 17vw;
   color: #2652A4;
   font-weight: bold;
   bottom: 12vw;
 }
 
-.ex_mapa{
-  position:absolute;
- 
-  margin-left: 31vw;
-  margin-top: -26vw;
-
-}
-.ex_mapa .title{
-  font-weight: bold;
-}
-.ex_mapa .ar{
-  color: #21A2D9;
-}
-.ex_mapa .a{
-  color: #DA1717;
-
-
-}
-.ex_mapa2{
-  margin-left: 5vw;
-  margin-top: -31vw;
-}
-.ex_mapa2 .title2{
-  color: #2652A4;
-  font-weight: bold;
-}
-.ex_mapa2 .chatbot{
-  color:#FE831B ;
-}
-.ex_mapa2 .b{
-  color:#DA1717
-}
-
-.ex_mapa3{
-  position:absolute;
- 
+.ex_camera {
+  position: absolute;
   margin-left: 30vw;
-  margin-top: -28vw;
+  margin-top: -25vw;
 }
-.ex_mapa3 .title3{
+
+.ex_camera .title3 {
   color: #2652A4;
   font-weight: bold;
 }
-.ex_mapa3 .nã{
-  color:#21A2D9
-}
-.ex_mapa3 .saber{
-  color:#DA1717
+
+.ex_camera .nã {
+  color: #202527
 }
 
+.ex_camera .saber {
+  color: #DA1717
+}
 
+/* FIM CAMERA  */
 
 .about .video-box {
   background: url("../img/about.png") center center no-repeat;
@@ -997,43 +1024,7 @@ section {
   }
 }
 
-/*--------------------------------------------------------------
-# Features
---------------------------------------------------------------*/
-.features .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background: #f5f5ff;
-  transition: ease-in-out 0.3s;
-}
-
-.features .icon-box i {
-  font-size: 32px;
-  padding-right: 10px;
-  line-height: 1;
-}
-
-.features .icon-box h3 {
-  font-weight: 700;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-size: 16px;
-}
-
-.features .icon-box h3 a {
-  color: #010483;
-  transition: ease-in-out 0.3s;
-}
-
-.features .icon-box h3 a:hover {
-  color: #01036f;
-}
-
-.features .icon-box:hover {
-  background: #ebebff;
-}
+/*
 
 /*--------------------------------------------------------------
 # Counts
@@ -1084,36 +1075,12 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Details
+# glaucus
 --------------------------------------------------------------*/
-.details .content+.content {
-  margin-top: 100px;
-}
 
-.details .content h3 {
-  font-weight: 600;
-  font-size: 26px;
-  color: #010483;
-}
 
-.details .content ul {
-  list-style: none;
-  padding: 0;
-}
 
-.details .content ul li {
-  padding-bottom: 10px;
-}
 
-.details .content ul i {
-  font-size: 20px;
-  padding-right: 4px;
-  color: #1acc8d;
-}
-
-.details .content p:last-child {
-  margin-bottom: 0;
-}
 
 /*--------------------------------------------------------------
 # Gallery
@@ -1352,7 +1319,8 @@ section {
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
-.planos{
+
+.planos {
   display: flex;
   flex-direction: column;
   flex-direction: row;
@@ -1424,9 +1392,11 @@ section {
   color: #fff;
   background: #FE831B;
 }
-.ok{
+
+.ok {
   color: #1acc8d;
 }
+
 .pricing .advanced {
   width: 200px;
   position: absolute;
@@ -1439,8 +1409,9 @@ section {
   background: #1acc8d;
   color: #fff;
 }
-.gratis:hover{
-scale: 0.5vw;
+
+.gratis:hover {
+  scale: 0.5vw;
 }
 
 .pricing {
@@ -1894,12 +1865,12 @@ scale: 0.5vw;
 
 .caixamensagem {
   width: 120%;
-  min-height: 100px; 
-  margin-right: 0; 
+  min-height: 100px;
+  margin-right: 0;
 }
 
 @media (min-width: 768px) {
   .caixamensagem {
-    width: 120%; 
+    width: 120%;
   }
 }
