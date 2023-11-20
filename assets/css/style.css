@@ -462,7 +462,10 @@ h6 {
 
 /*--------------------------------------------------------------
 # Hero Section
+
 --------------------------------------------------------------*/
+
+
 #hero {
   width: 100%;
   background: url("../img/main.fundo.png") no-repeat;
@@ -490,8 +493,8 @@ h6 {
 }
 
 #hero h1 span {
-  color: #fff;
-  border-bottom: 4px solid #1acc8d;
+  color: #21A2D9; 
+  border-bottom: 2px solid #21A2D9;
 }
 
 #hero h2 {
