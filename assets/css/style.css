@@ -182,19 +182,12 @@ h6 {
 .meu-botao {
   display: inline-block;
   padding: 10px 30px;
-  /* Ajuste conforme necessário */
   font-size: 100px;
-  /* Ajuste conforme necessário */
   border-radius: 40px;
-  /* Adiciona bordas arredondadas, ajuste conforme necessário */
   background-color: #FE831B;
-  /* Cor de fundo do botão, ajuste conforme necessário */
   color: #080808;
-  /* Cor do texto no botão, ajuste conforme necessário */
   border: none;
-  /* Remove a borda padrão do botão */
   cursor: pointer;
-  /* Muda o cursor para indicar que o botão é clicável */
   font-size: 16px;
   padding: 10px 30px;
   transition: 0.5s;
@@ -1542,6 +1535,7 @@ section {
 }
 
 .contact .info .email,
+
 .contact .info .phone {
   margin-top: 40px;
 }
@@ -1647,7 +1641,6 @@ section {
   background: #2652A4;
   padding: 0 0 30px 0;
   color: #fff;
-  font-size: 14px;
 }
 
 #footer .footer-top {
@@ -1655,12 +1648,11 @@ section {
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 15px;
   background: #f7f7f7;
   color: #000000;
   border-top: 5px solid #FE831B;
   text-align: center;
-  padding: 30px 20px;
+  padding: 0px 10px;
   border-radius: 20px;
   width: 100%;
 }
@@ -1685,17 +1677,17 @@ section {
   display: inline-block;
   color: #fff;
   line-height: 1;
-  padding: 8px 0;
+  padding: 7px 0;
   margin-right: 4px;
   border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
+  width: 50px;
+  height: 50px;
+  transition: 0.5s;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #1acc8d;
+  background: #FE831B;
   color: #fff;
   text-decoration: none;
 }
@@ -1711,7 +1703,6 @@ section {
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
   align-items: center;
-  background-color: #2652A4;
 }
 
 #footer .footer-top .footer-links ul {
@@ -1749,7 +1740,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #21A2D9;
+  color: #FE831B;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1784,7 +1775,6 @@ section {
 .container .php-email-form {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   margin-left: 35px;
   margin-top: 50px;
 }
@@ -1814,7 +1804,9 @@ section {
   position: fixed;
 }
 
-#footer .logo-aruanã-footer {}
+#footer .logo-aruanã-footer {
+
+}
 
 #footer .credits {
   padding-top: 35px;
@@ -1828,9 +1820,8 @@ section {
     margin: -20px 0 30px 0;
   }
 
-  .caixainfos,
   .caixamensagem {
-    width: 100%;
+    width: 300px;
   }
 
   .formulario {
@@ -1869,11 +1860,19 @@ section {
 .caixamensagem {
   width: 120%;
   min-height: 100px;
-  margin-right: 0;
+  margin-right: 100;
 }
+
+.caixainfo {
+  width: 70%;
+} 
 
 @media (min-width: 768px) {
   .caixamensagem {
-    width: 120%;
+    width: 100%;
   }
+}
+
+.iconessociais {
+  margin-left: 15px; 
 }
