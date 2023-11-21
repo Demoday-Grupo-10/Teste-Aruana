@@ -80,7 +80,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #1acc8d;
+  background: #FE831B;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #2be4a2;
+  background: rgb(200, 106, 28);
   color: #fff;
 }
 
@@ -1784,7 +1784,7 @@ section {
 }
 
 #footer .copyright {
-  border-top: 1px solid #010479;
+  border-top: 1px solid #FE831B;
   text-align: center;
   padding-top: 30px;
 }
@@ -1849,7 +1849,7 @@ section {
   }
 
   .caixainfos {
-    width: 70%;
+    width: 100%;
   }
 
   .formulario {
@@ -1864,7 +1864,7 @@ section {
 }
 
 .caixainfo {
-  width: 70%;
+  width: 100%;
 } 
 
 @media (min-width: 768px) {
@@ -1876,3 +1876,4 @@ section {
 .iconessociais {
   margin-left: 15px; 
 }
+
