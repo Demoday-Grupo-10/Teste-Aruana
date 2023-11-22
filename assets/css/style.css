@@ -120,12 +120,13 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 4, 136, 0.9);
+  width: 100%;
 }
 
 
 #header.header-transparent {
   background: white;
+  width: 100vw;
 }
 
 #header.header-scrolled {
@@ -133,6 +134,7 @@ h6 {
   height: 60px;
   border-bottom: solid;
   color: #00000011;
+  width: 100vw;
 }
 
 
@@ -141,7 +143,7 @@ h6 {
   margin: 0;
   padding: 0;
   line-height: 1;
-  font-weight: 700;
+  font-weight: 100;
 }
 
 #header .logo h1 a,
@@ -158,10 +160,11 @@ h6 {
 * Desktop Navigation 
 */
 .navbar {
-  padding: 0;
+    float: left;
+    margin-left: -10vw;
 }
 
-.conterner {
+.container1 {
 
   text-align: center;
   letter-spacing: 20px;
@@ -170,34 +173,31 @@ h6 {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
-  border-radius: 50px;
+  padding: 2vw;
   transition: 0.5s;
-  color: #fff;
-  background: #1acc8d;
-
+  color: #fff
 
 }
 
 .meu-botao {
   display: inline-block;
-  padding: 10px 30px;
-  font-size: 100px;
-  border-radius: 40px;
+  border-radius: 10vw;
   background-color: #FE831B;
   color: #080808;
   border: none;
   cursor: pointer;
-  font-size: 16px;
-  padding: 10px 30px;
-  
+  font-size: 1.2vw;
+  padding: 0.7vw 2vw;
+  margin-right: -2vw;
+  text-decoration: none;
 }
 
 #icone {
 
   color:#080808;
-  position: relative;
+ 
   font-size: 3vw;
+  margin-right: -20vw;
 
 }
 
@@ -341,11 +341,13 @@ h6 {
   visibility: visible;
 }
 
-@media (max-width: 1366px) {
+@media ( max-width: 768px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
-
+  #header{
+    width: 100%;
+  }
   .navbar .dropdown .dropdown:hover>ul {
     left: -100%;
   }
@@ -836,7 +838,7 @@ section {
   height: 50vw;
 }
 .imagens {
-  width: 100%;
+  width: 100vw;
   margin-top: 9vw;
 
 }
@@ -844,7 +846,7 @@ section {
   position: absolute;
   z-index: -1;
   background-color: #000000b5;
-  border-radius: 20px;
+  border-radius: 1.8vw;
 }
 .imagens .img_2 {
   position: relative;
@@ -882,7 +884,7 @@ section {
   position: absolute;
   z-index: -1;
   background-color: #000000b5;
-  border-radius: 3vw;
+  border-radius: 1.8vw;
 
 }
 .imagens .img_4 {
