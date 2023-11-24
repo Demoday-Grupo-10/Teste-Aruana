@@ -219,3 +219,9 @@
   new PureCounter();
 
 })()
+
+const button = document.querySelector("meu-botao")
+const modal = document.querySelector("dialog")
+button.onclick = function abrir(){
+  modal.showModal()
+}
